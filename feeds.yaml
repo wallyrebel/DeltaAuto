@@ -1,0 +1,38 @@
+﻿# Mississippi Delta Report RSS Feeds Configuration
+# Generated: 2026-01-18
+
+feeds:
+  - name: "Delta Report Feed 1"
+    url: "https://fetchrss.com/feed/1vcaujD2G3c21vhTtJ3ZGC3e.rss"
+    category: "Local News"
+    enabled: true
+
+  - name: "Delta Report Feed 2"
+    url: "https://fetchrss.com/feed/1vcaujD2G3c21vhTu57ktBFq.rss"
+    category: "Local News"
+    enabled: true
+
+  - name: "Delta Report Feed 3"
+    url: "https://fetchrss.com/feed/1vcaujD2G3c21vhTuoFBZ8LC.rss"
+    category: "Local News"
+    enabled: true
+
+  - name: "Delta Report Feed 4"
+    url: "https://fetchrss.com/feed/1vcaujD2G3c21vhTvP4821K6.rss"
+    category: "Local News"
+    enabled: true
+
+  - name: "Delta Report Feed 5"
+    url: "https://fetchrss.com/feed/1vcaujD2G3c21vhTwY9W5Fbn.rss"
+    category: "Local News"
+    enabled: true
+
+  - name: "Delta Report Feed 6"
+    url: "https://fetchrss.com/feed/1vcaujD2G3c21vhTy91J68Ys.rss"
+    category: "Local News"
+    enabled: true
+
+  - name: "Delta Report Feed 7"
+    url: "https://fetchrss.com/feed/1vcaujD2G3c21vhTyv0Mm73T.rss"
+    category: "Local News"
+    enabled: true
