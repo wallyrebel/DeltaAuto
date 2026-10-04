@@ -1,0 +1,212 @@
+{
+  "id": 17766,
+  "date": "2026-10-04T11:50:49",
+  "date_gmt": "2026-10-04T16:50:49",
+  "guid": {
+    "rendered": "https://mississippideltareport.com/news/rainy-weather-persists-through-monday-before-clearing-this-week/04/10/2026/",
+    "raw": "https://mississippideltareport.com/news/rainy-weather-persists-through-monday-before-clearing-this-week/04/10/2026/"
+  },
+  "modified": "2026-10-04T11:50:49",
+  "modified_gmt": "2026-10-04T16:50:49",
+  "password": "",
+  "slug": "rainy-weather-persists-through-monday-before-clearing-this-week",
+  "status": "publish",
+  "type": "post",
+  "link": "https://mississippideltareport.com/news/rainy-weather-persists-through-monday-before-clearing-this-week/04/10/2026/",
+  "title": {
+    "raw": "Rainy weather persists through Monday before clearing this week",
+    "rendered": "Rainy weather persists through Monday before clearing this week"
+  },
+  "content": {
+    "raw": "<p>High rain chances are expected to continue across the region through Monday, according to weather officials. The forecast indicates that it will be dry Monday afternoon through Friday morning.</p> <p>Rain is expected to return over the weekend as conditions change. No significant storms or severe weather are currently anticipated, but residents are advised to stay updated on local forecasts.</p> <p>Officials recommend residents plan accordingly for continued wet conditions through the start of the week and prepare for possible rain over the weekend.</p>\n\n<p><em>Source: <a href=\"https://www.facebook.com/330424809127534/posts/1527427532760583\" target=\"_blank\" rel=\"noopener\">Original Article</a></em></p>",
+    "rendered": "<p>High rain chances are expected to continue across the region through Monday, according to weather officials. The forecast indicates that it will be dry Monday afternoon through Friday morning.</p>\n<p>Rain is expected to return over the weekend as conditions change. No significant storms or severe weather are currently anticipated, but residents are advised to stay updated on local forecasts.</p>\n<p>Officials recommend residents plan accordingly for continued wet conditions through the start of the week and prepare for possible rain over the weekend.</p>\n<p><em>Source: <a href=\"https://www.facebook.com/330424809127534/posts/1527427532760583\" target=\"_blank\" rel=\"noopener\">Original Article</a></em></p>\n",
+    "protected": false,
+    "block_version": 0
+  },
+  "excerpt": {
+    "raw": "Forecasters predict ongoing rain through Monday, with dry conditions expected Monday afternoon through Friday. Rain returns over the weekend.",
+    "rendered": "<p>Forecasters predict ongoing rain through Monday, with dry conditions expected Monday afternoon through Friday. Rain returns over the weekend.</p>\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 17765,
+  "comment_status": "open",
+  "ping_status": "closed",
+  "sticky": false,
+  "template": "",
+  "format": "standard",
+  "meta": {
+    "_seopress_titles_title": "",
+    "_seopress_titles_desc": "",
+    "_seopress_robots_index": "",
+    "_seopress_robots_follow": "",
+    "_seopress_robots_imageindex": "",
+    "_seopress_robots_snippet": "",
+    "_seopress_robots_primary_cat": "",
+    "_seopress_robots_breadcrumbs": "",
+    "_seopress_robots_freeze_modified_date": "",
+    "_seopress_robots_custom_modified_date": "",
+    "_seopress_robots_canonical": "",
+    "_seopress_social_fb_title": "",
+    "_seopress_social_fb_desc": "",
+    "_seopress_social_fb_img": "",
+    "_seopress_social_fb_img_attachment_id": 0,
+    "_seopress_social_fb_img_width": 0,
+    "_seopress_social_fb_img_height": 0,
+    "_seopress_social_twitter_title": "",
+    "_seopress_social_twitter_desc": "",
+    "_seopress_social_twitter_img": "",
+    "_seopress_social_twitter_img_attachment_id": 0,
+    "_seopress_social_twitter_img_width": 0,
+    "_seopress_social_twitter_img_height": 0,
+    "_seopress_redirections_value": "",
+    "_seopress_redirections_enabled": "",
+    "_seopress_redirections_enabled_regex": "",
+    "_seopress_redirections_logged_status": "",
+    "_seopress_redirections_param": "",
+    "_seopress_redirections_type": 0,
+    "_seopress_analysis_target_kw": "",
+    "_seopress_news_disabled": "",
+    "_seopress_video_disabled": "",
+    "_seopress_video": [],
+    "_seopress_pro_schemas_manual": [],
+    "_seopress_pro_rich_snippets_disable_all": "",
+    "_seopress_pro_rich_snippets_disable": [],
+    "_seopress_pro_schemas": [],
+    "colormag_page_container_layout": "default_layout",
+    "colormag_page_sidebar_layout": "default_layout",
+    "footnotes": ""
+  },
+  "categories": [
+    1
+  ],
+  "tags": [],
+  "permalink_template": "https://mississippideltareport.com/news/%postname%/04/10/2026/",
+  "generated_slug": "rainy-weather-persists-through-monday-before-clearing-this-week",
+  "class_list": [
+    "post-17766",
+    "post",
+    "type-post",
+    "status-publish",
+    "format-standard",
+    "has-post-thumbnail",
+    "hentry",
+    "category-news"
+  ],
+  "msnewsgroup_canonical": false,
+  "post_mailing_queue_ids": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://mississippideltareport.com/wp-json/wp/v2/posts/17766",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://mississippideltareport.com/wp-json/wp/v2/posts"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://mississippideltareport.com/wp-json/wp/v2/types/post"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://mississippideltareport.com/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://mississippideltareport.com/wp-json/wp/v2/comments?post=17766"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://mississippideltareport.com/wp-json/wp/v2/posts/17766/revisions"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://mississippideltareport.com/wp-json/wp/v2/media/17765"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://mississippideltareport.com/wp-json/wp/v2/media?parent=17766"
+      }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "category",
+        "embeddable": true,
+        "href": "https://mississippideltareport.com/wp-json/wp/v2/categories?post=17766"
+      },
+      {
+        "taxonomy": "post_tag",
+        "embeddable": true,
+        "href": "https://mississippideltareport.com/wp-json/wp/v2/tags?post=17766"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://mississippideltareport.com/wp-json/wp/v2/posts/17766"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://mississippideltareport.com/wp-json/wp/v2/posts/17766"
+      }
+    ],
+    "wp:action-sticky": [
+      {
+        "href": "https://mississippideltareport.com/wp-json/wp/v2/posts/17766"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://mississippideltareport.com/wp-json/wp/v2/posts/17766"
+      }
+    ],
+    "wp:action-create-categories": [
+      {
+        "href": "https://mississippideltareport.com/wp-json/wp/v2/posts/17766"
+      }
+    ],
+    "wp:action-assign-categories": [
+      {
+        "href": "https://mississippideltareport.com/wp-json/wp/v2/posts/17766"
+      }
+    ],
+    "wp:action-create-tags": [
+      {
+        "href": "https://mississippideltareport.com/wp-json/wp/v2/posts/17766"
+      }
+    ],
+    "wp:action-assign-tags": [
+      {
+        "href": "https://mississippideltareport.com/wp-json/wp/v2/posts/17766"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}
