@@ -1,4 +1,4 @@
-name: Correct exact Delta post 17766 source fidelity
+name: Verify Delta post 17766 correction (read-only)
 on:
   push:
     branches: [main]
@@ -12,7 +12,7 @@ jobs:
   audit:
     if: >-
       github.ref == 'refs/heads/main' &&
-      github.event.head_commit.message == 'Correct verified Delta post 17766 source fidelity'
+      github.event.head_commit.message == 'Verify Delta post 17766 correction without writes'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -22,7 +22,7 @@ jobs:
           python-version: '3.11'
       - run: python -m pip install requests pytest
       - run: python -m pytest tests/test_post17766_correction.py -q
-      - name: Apply exact content-only correction using existing managed credentials
+      - name: Verify completed content-only correction using existing managed credentials
         env:
           WORDPRESS_BASE_URL: ${{ secrets.WORDPRESS_BASE_URL }}
           WORDPRESS_USERNAME: ${{ secrets.WORDPRESS_USERNAME }}
