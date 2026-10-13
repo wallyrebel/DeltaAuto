@@ -1,0 +1,69 @@
+{
+  "site": "https://mississippideltareport.com",
+  "repository": "wallyrebel/DeltaAuto",
+  "mode": "read-only",
+  "posts": [
+    {
+      "id": 18040,
+      "link": "https://mississippideltareport.com/news/dense-fog-could-reduce-visibility-to-half-a-mile-overnight-and-early-wednesday-morning/13/10/2026/",
+      "rendered_sha256": {
+        "title": "0a04101969a22e0a4058e06abaa706e531eba2fc0ba382c7e72b52c793e6d299",
+        "excerpt": "24a6114dedbf6b229767a1c7a962752dc60b5d83e6f20c8801df14f513d0bdab",
+        "content": "56b1772783387090201fd74515cb995d1b014dd46226b265bd314ba39e723b67"
+      },
+      "replacements": {},
+      "sources": [
+        "https://www.facebook.com/NWSJacksonMS/posts/1535789241924412/"
+      ],
+      "set": {
+        "title": "NWS forecast called for dense fog Tuesday morning, Oct. 13",
+        "excerpt": "The National Weather Service forecast patchy dense fog along the Highway 84 corridor from 5 to 9 a.m. Tuesday, Oct. 13.",
+        "content": "<p>The National Weather Service forecast patchy dense fog along the Highway 84 corridor between 5 and 9 a.m. Tuesday, Oct. 13, with visibility potentially falling to half a mile or less.</p>\n<p>The agency urged drivers encountering fog to slow down, use low-beam headlights and allow extra travel time.</p>\n<p><em>Correction (Oct. 13, 2026): The forecast applied to Tuesday morning, not Wednesday morning.</em></p>\n<p><em>Source: <a href=\"https://www.facebook.com/NWSJacksonMS/posts/1535789241924412/\">National Weather Service Jackson</a></em></p>"
+      },
+      "note": "Independently viewed original graphic: Tue Oct13 2026, 12:09AM issuance, 5AM–9AM Tuesday; forecast not observed conditions."
+    },
+    {
+      "id": 17980,
+      "link": "https://mississippideltareport.com/news/greenville-mississippi-claims-states-only-top-10-ranking/11/10/2026/",
+      "rendered_sha256": {
+        "title": "8de699d1b58aa0db9e4981de43af98af3b560c9a7fbf0b5409d689ce7fe6227e",
+        "excerpt": "d831434e9be28f0cbd3a0c0b16b19958fb08209714776b6c831f6896a1431769",
+        "content": "3861600ec5abf39d571539b515182aae815184912991119fa89757ab96566d9c"
+      },
+      "replacements": {},
+      "sources": [
+        "https://www.facebook.com/1240534114844017/posts/1480442584186501"
+      ],
+      "set": {
+        "title": "Doe’s Eat Place in Greenville ranks eighth on Discovery Matt’s Southern restaurant list",
+        "excerpt": "A Discovery Matt editorial list places Doe’s Eat Place in Greenville eighth among 35 old-school Southern restaurants.",
+        "content": "<p>Doe’s Eat Place in Greenville is ranked eighth on Discovery Matt’s editorial list of 35 old-school restaurants in the South.</p>\n<p>Delta Compass – WCEA shared the list on Facebook, highlighting Greenville’s entry. The graphic lists Doe’s Eat Place as the only Mississippi restaurant in its top 10.</p>\n<p><em>Correction (Oct. 13, 2026): The list ranks restaurants, not cities. An earlier version also attributed comments to agencies without supporting statements.</em></p>\n<p><em>Source: <a href=\"https://www.facebook.com/1240534114844017/posts/1480442584186501\">Delta Compass – WCEA announcement and ranking graphic</a></em></p>"
+      },
+      "note": "Independently viewed graphic: Doe’s8, Weidmann’s19, TaylorGrocery29; no government endorsement."
+    },
+    {
+      "id": 17992,
+      "link": "https://mississippideltareport.com/news/mississippi-delta-community-college-to-host-coronation-during-100th-homecoming/12/10/2026/",
+      "rendered_sha256": {
+        "title": "23ff6c271335008cea5662fc5b486bb0b3c558b3395b43b51ffb6facfd33a996",
+        "excerpt": "fdb5764c421c186b08a3e1f508d4bc6ffe5a41446ec88831f851b1079b6135d9",
+        "content": "a15aa090e64a13d5931c721149e74e1ab567ebeac908779ab1e2c4822a9bcec0"
+      },
+      "replacements": {},
+      "sources": [],
+      "note": "Preserve duplicate URLs/statuses. No mutation proposed pending separate consolidation/expansion review."
+    },
+    {
+      "id": 18020,
+      "link": "https://mississippideltareport.com/news/mississippi-delta-community-college-hosts-black-tie-coronation-during-100th-homecoming/12/10/2026/",
+      "rendered_sha256": {
+        "title": "87d88ea1217e722b174dd9d65fd2266085a106f8e93e7d5978c32f0109c311df",
+        "excerpt": "996894fd4424040679736ef9f5df8f7e065d8088709d8f952d82d9fe1294c0cb",
+        "content": "29f0f943816f98cd32acbf2dc16dfeced8f4bca3e2af15e750982475aa9c0411"
+      },
+      "replacements": {},
+      "sources": [],
+      "note": "Preserve duplicate URLs/statuses. No mutation proposed pending separate consolidation/expansion review."
+    }
+  ]
+}
