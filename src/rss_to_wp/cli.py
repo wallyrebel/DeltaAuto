@@ -26,6 +26,7 @@ from rss_to_wp.feeds import (
     pick_entries,
 )
 from rss_to_wp.images import download_image, find_fallback_image, find_rss_image
+from rss_to_wp.feeds.college_recaps import FEEDS as COLLEGE_FEEDS, recap_text
 from rss_to_wp.rewriter import OpenAIRewriter
 from rss_to_wp.source_content import (
     MIN_SOURCE_LENGTH,
@@ -295,6 +296,12 @@ def process_feed(
                 skipped += 1
                 continue
 
+            if feed_config.url in COLLEGE_FEEDS:
+                recap = recap_text(feed_config.url, get_entry_link(entry))
+                if not recap:
+                    skipped += 1
+                    continue
+                entry["content"] = [{"value": recap}]
             placeholder = platform_placeholder_reason(
                 get_entry_title(entry), get_entry_content(entry)
             )
@@ -422,7 +429,7 @@ def process_entry(
     image_result = None
 
     # Try RSS image first
-    image_url = find_rss_image(entry, base_url=link or "")
+    image_url = None if feed_config.url in COLLEGE_FEEDS else find_rss_image(entry, base_url=link or "")
     image_alt = ""
 
     if image_url:

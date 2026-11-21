@@ -2,6 +2,16 @@
 # Generated: 2026-01-18
 
 feeds:
+  - name: "Delta State Athletics game recaps"
+    url: "https://gostatesmen.com/rss.aspx"
+    default_category: "Local News"
+    default_tags: ["Delta State University"]
+    max_per_run: 2
+  - name: "Mississippi Valley State Athletics game recaps"
+    url: "https://mvsusports.com/rss.aspx"
+    default_category: "Local News"
+    default_tags: ["Mississippi Valley State University"]
+    max_per_run: 2
   - name: "Mississippi Governor's Office releases"
     url: "https://governorreeves.ms.gov/feed/"
     default_category: "Mississippi News"
