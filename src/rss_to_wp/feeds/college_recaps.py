@@ -28,6 +28,9 @@ def recap_text(feed_url, story_url):
     if not canonical or canonical.get("href") != story_url:
         raise ValueError("Athletics release identity changed")
     body = page.select_one('article[aria-label="Game Recap Story"] .sidearm-story-template-text')
+    if (body is None and target.netloc == "mvsusports.com"
+            and re.fullmatch(r"/news/\d{4}/\d{1,2}/\d{1,2}/general-this-week-in-valley-state-athletics(?:-\d+)?\.aspx", target.path)):
+        body = page.select_one('article[aria-label="Main Story"] .sidearm-story-template-text')
     if body is None:
         return None
     for node in body.select("script, style, img, iframe, figure, form"):
