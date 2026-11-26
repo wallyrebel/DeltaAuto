@@ -2,6 +2,11 @@
 # Generated: 2026-01-18
 
 feeds:
+  - name: "Mississippi Delta verified public records"
+    url: "https://raw.githubusercontent.com/wallyrebel/MississippiNewsGroup/main/data/public-records/delta.xml"
+    default_category: "Local News"
+    default_tags: ["Mississippi Delta"]
+    max_per_run: 1
   - name: "Delta State Athletics game recaps"
     url: "https://gostatesmen.com/rss.aspx"
     default_category: "Local News"
