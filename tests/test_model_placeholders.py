@@ -25,6 +25,21 @@ def test_placeholder_rejected_by_parser_and_wordpress_boundary(headline, body):
     assert wp.session.mock_calls == []
 
 @pytest.mark.parametrize("headline,body", [
+    ("null", "<p>Water service resumed at noon.</p>"),
+    ("Water service", "<p>NULL</p>"),
+    ("null", "<p>null</p>"),
+])
+def test_literal_null_never_reaches_wordpress(headline, body):
+    editor = OpenAIRewriter(api_key="offline-test")
+    assert editor._parse_response(json.dumps({"headline": headline, "body": body})) is None
+    wp = WordPressClient("https://example.invalid", "offline-test", "offline-test")
+    wp.session = Mock()
+    assert wp.create_post(headline, body, source_url="https://example.invalid/source") is None
+    assert wp.session.mock_calls == []
+
+
+@pytest.mark.parametrize("headline,body", [
+    ("Court declares vote null", "The court declared the November vote null."),
     ("Road reopened", "Main Street reopened."),
     ("Officials give no details about investigation", "Police declined to release details about the investigation Monday."),
     ("Conference schedule released", "The conference opens at 9 a.m. Tuesday."),

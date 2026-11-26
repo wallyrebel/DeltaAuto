@@ -97,6 +97,8 @@ def publication_content_problem(title: str, content: str) -> str | None:
         return "empty_headline"
     if not clean_source_content(content):
         return "empty_body"
+    if "null" in (_normalized_text(title), _normalized_text(content)):
+        return "null_output_field"
     return platform_placeholder_reason(title, content) or model_insufficiency_reason(title, content)
 
 
